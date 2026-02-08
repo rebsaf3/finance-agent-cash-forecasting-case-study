@@ -1,0 +1,21 @@
+{
+  "run_id": "run_001_forecast_ok",
+  "intent": "generate_cash_forecast",
+  "required_selection": [
+    "workbook",
+    "forecast_horizon"
+  ],
+  "selection": {
+    "workbook": "Treasury_Cash_Forecast_Template",
+    "forecast_horizon": "7_days"
+  },
+  "inputs": {
+    "notes": "Sanitized demo run. No real numbers."
+  },
+  "constraints": {
+    "approved_sources_only": true,
+    "no_invention": true,
+    "label_estimates": true
+  },
+  "requested_output_format": "table_and_summary"
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "run_003_variance_explain_needs_runs",
+  "intent": "explain_variance",
+  "required_selection": [
+    "baseline_run_id",
+    "comparison_run_id"
+  ],
+  "selection": {},
+  "inputs": {
+    "notes": "Missing run ids should block until selected."
+  },
+  "constraints": {
+    "no_guessing": true
+  },
+  "requested_output_format": "narrative"
+}

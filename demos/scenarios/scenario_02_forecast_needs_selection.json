@@ -1,0 +1,18 @@
+{
+  "run_id": "run_002_forecast_needs_selection",
+  "intent": "generate_cash_forecast",
+  "required_selection": [
+    "workbook",
+    "forecast_horizon"
+  ],
+  "selection": {},
+  "inputs": {
+    "notes": "Missing selection should block execution."
+  },
+  "constraints": {
+    "approved_sources_only": true,
+    "no_invention": true,
+    "require_disambiguation": true
+  },
+  "requested_output_format": "gap_report"
+}

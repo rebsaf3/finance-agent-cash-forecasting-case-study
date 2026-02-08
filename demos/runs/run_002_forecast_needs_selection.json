@@ -1,0 +1,14 @@
+{
+  "run_id": "run_002_forecast_needs_selection",
+  "status": "needs_selection",
+  "missing_selection": [
+    "workbook",
+    "forecast_horizon"
+  ],
+  "message": "Selection required before forecast can run. No values were calculated.",
+  "audit": {
+    "approved_sources_only": true,
+    "no_invention": true,
+    "blocked_before_calculation": true
+  }
+}
