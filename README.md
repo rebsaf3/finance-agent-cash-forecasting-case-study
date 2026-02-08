@@ -1,3 +1,4 @@
+```markdown
 # Finance Agent Case Study: Cash Forecasting and Treasury Operations
 A practical case study showing how a Finance Agent can support treasury workflows with reliable, auditable outputs that do not guess, do not invent numbers, and enforce selection and disambiguation before any targeted action.
 
